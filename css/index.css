@@ -180,6 +180,7 @@ p {
   text-align: center;
 }
 .navigation-container .title h1 {
+  color: black;
   font-size: 3rem;
 }
 .navigation-container nav {
