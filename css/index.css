@@ -223,9 +223,18 @@ footer {
 }
 @media (max-width: 500px) {
   .home .info {
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 3% 3%;
   }
+}
+@media (max-width: 500px) {
+  .home #middle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.home #bottom {
+  border-bottom: 1px solid #dee2e6;
 }
 .home .info-text {
   width: 50%;
