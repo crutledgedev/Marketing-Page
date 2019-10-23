@@ -6,20 +6,35 @@
 
 
   .info{
-    margin-top: 60px;
+    margin-top: 30px;
     border-top: 1px solid @main-border-color;
     padding: 20px 40px;
     display: flex;
     justify-content: center;
+
+
     
       @media @phone{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 3% 3%;
+        
+      
       }
+  
 
    }
      
+   @media @phone{
+    #middle{
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
+  }
+
+  #bottom{
+    border-bottom: 1px solid @main-border-color;
+  }
 
     .info-text {
       width: 50%;
@@ -38,8 +53,7 @@
  
     
 
-      // .btn {
-      // }
+     
     }
     .btn{
     .button(orangered; white; 200px);
@@ -48,7 +62,9 @@
           align: center;
           
         }
-        
+        a{
+          color: white;
+        }
       }//end button
 
 
@@ -60,6 +76,7 @@
       @media @phone{
         width: 100%;
         margin-left: 0%;
+        //display: none;
         
       }
       
@@ -71,7 +88,5 @@
     }
 
 
-  }
-
   
-//}// home
+}// home
