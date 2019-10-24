@@ -194,7 +194,13 @@ p {
   margin-left: 25%;
   margin-right: 25%;
 }
-@media (max-width: 520px) {
+@media (max-width: 800px) {
+  .navigation-container nav {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+}
+@media (max-width: 500px) {
   .navigation-container nav {
     margin-left: 10%;
     margin-right: 10%;
@@ -224,13 +230,13 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .home .info {
     flex-direction: column;
     padding: 3% 3%;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .home #middle {
     display: flex;
     flex-direction: column-reverse;
@@ -242,10 +248,11 @@ footer {
 .home .info-text {
   width: 50%;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .home .info-text {
     width: 90%;
     padding-top: 1%;
+    margin-left: 3%;
   }
 }
 .home .info-text h3 {
@@ -263,31 +270,29 @@ footer {
   height: 40px;
   font-size: 2rem;
   border-radius: 10px;
+  border-color: darkorange;
+  border: 1px solid darkorange;
   text-align: center;
-  padding-top: 10px;
-  transition: 0.7s;
+  transition: 0.3s;
 }
 .home .btn:hover {
-  background-color: #ff6500;
+  border: 2px solid #dee2e6;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .home .btn {
     width: 95%;
     align: center;
   }
-}
-.home .btn a {
-  color: white;
 }
 .home .info-img {
   width: 46%;
   margin-left: 4%;
   padding-right: 8%;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .home .info-img {
     width: 100%;
-    margin-left: 0%;
+    margin-left: 3%;
   }
 }
 .home .info-img img {
@@ -302,13 +307,13 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .about .info {
     flex-direction: column;
     padding: 3% 3%;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .about #middle {
     display: flex;
     flex-direction: column-reverse;
@@ -320,10 +325,11 @@ footer {
 .about .info-text {
   width: 50%;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .about .info-text {
     width: 90%;
     padding-top: 1%;
+    margin-left: 3%;
   }
 }
 .about .info-text h3 {
@@ -334,13 +340,12 @@ footer {
 }
 .about .info-img {
   width: 46%;
-  margin-left: 4%;
+  margin-left: 3%;
   padding-right: 8%;
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .about .info-img {
     width: 100%;
-    margin-left: 0%;
   }
 }
 .about .info-img img {
